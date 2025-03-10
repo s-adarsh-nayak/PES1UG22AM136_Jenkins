@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh 'main/hello_exec'
+                sh 'main/hello_c'
                 echo 'Test Stage Successful'
             }
         }
